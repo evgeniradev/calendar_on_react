@@ -1,0 +1,5217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Calendar /> renders Calendar and tasks 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(Calendar)>
+    <Calendar
+      dispatch={[Function]}
+      hoveredTaskId={null}
+      month={11}
+      taskElements={
+        Object {
+          "1293": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-right-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 606,
+                  "x": 0,
+                  "y": 90,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={1}
+            >
+              <div
+                className="calendar__task no-right-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 1 29-10-2019 - 06-11-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-left-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 303,
+                  "x": 0,
+                  "y": 120,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task no-left-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 1 29-10-2019 - 06-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1294": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 404,
+                  "x": 0,
+                  "y": 120,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={1}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 2 31-10-2019 - 03-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1295": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-right-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 505,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={3}
+            >
+              <div
+                className="calendar__task no-right-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 3 13-11-2019 - 01-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={4}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 3 13-11-2019 - 01-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-left-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={5}
+            >
+              <div
+                className="calendar__task no-left-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 3 13-11-2019 - 01-12-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1296": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 101,
+                  "x": 0,
+                  "y": 150,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 4 05-11-2019 - 05-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1297": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 303,
+                  "x": 0,
+                  "y": 180,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 5 05-11-2019 - 07-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1298": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 101,
+                  "x": 0,
+                  "y": 240,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 6 06-11-2019 - 06-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1299": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 505,
+                  "x": 0,
+                  "y": 210,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 7 05-11-2019 - 09-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1300": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 202,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 8 08-11-2019 - 09-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1301": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 101,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 9 09-11-2019 - 09-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1302": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 30,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={1}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 10 27-10-2019 - 09-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 90,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={2}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 10 27-10-2019 - 09-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={3}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 10 27-10-2019 - 09-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={4}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 10 27-10-2019 - 09-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={5}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 10 27-10-2019 - 09-12-2019
+                </span>
+              </div>
+            </Rnd>,
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper no-border-radius"
+              default={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={6}
+            >
+              <div
+                className="calendar__task no-border-radius hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 10 27-10-2019 - 09-12-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1303": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 202,
+                  "x": 0,
+                  "y": 60,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={1}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 11 27-10-2019 - 29-10-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+          "1304": Array [
+            <Rnd
+              bounds="parent"
+              className="calendar__task-wrapper "
+              default={
+                Object {
+                  "height": 30,
+                  "width": 202,
+                  "x": 0,
+                  "y": 330,
+                }
+              }
+              disableDragging={true}
+              enableResizing={Object {}}
+              maxHeight={9007199254740991}
+              maxWidth={9007199254740991}
+              minWidth={101}
+              onDrag={[Function]}
+              onDragStart={[Function]}
+              onDragStop={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onResize={[Function]}
+              onResizeStart={[Function]}
+              onResizeStop={[Function]}
+              resizeGrid={
+                Array [
+                  101,
+                  2,
+                ]
+              }
+              scale={1}
+              weeknumber={5}
+            >
+              <div
+                className="calendar__task  hovered-false"
+                onClick={[Function]}
+              >
+                <span
+                  className="calendar__task-name"
+                >
+                  Task 12 29-11-2019 - 30-11-2019
+                </span>
+              </div>
+            </Rnd>,
+          ],
+        }
+      }
+      tasksJson={
+        Array [
+          Object {
+            "endDate": "09-12-2019",
+            "id": 1302,
+            "name": "Task 10",
+            "startDate": "27-10-2019",
+          },
+          Object {
+            "endDate": "29-10-2019",
+            "id": 1303,
+            "name": "Task 11",
+            "startDate": "27-10-2019",
+          },
+          Object {
+            "endDate": "06-11-2019",
+            "id": 1293,
+            "name": "Task 1",
+            "startDate": "29-10-2019",
+          },
+          Object {
+            "endDate": "03-11-2019",
+            "id": 1294,
+            "name": "Task 2",
+            "startDate": "31-10-2019",
+          },
+          Object {
+            "endDate": "05-11-2019",
+            "id": 1296,
+            "name": "Task 4",
+            "startDate": "05-11-2019",
+          },
+          Object {
+            "endDate": "07-11-2019",
+            "id": 1297,
+            "name": "Task 5",
+            "startDate": "05-11-2019",
+          },
+          Object {
+            "endDate": "09-11-2019",
+            "id": 1299,
+            "name": "Task 7",
+            "startDate": "05-11-2019",
+          },
+          Object {
+            "endDate": "06-11-2019",
+            "id": 1298,
+            "name": "Task 6",
+            "startDate": "06-11-2019",
+          },
+          Object {
+            "endDate": "09-11-2019",
+            "id": 1300,
+            "name": "Task 8",
+            "startDate": "08-11-2019",
+          },
+          Object {
+            "endDate": "09-11-2019",
+            "id": 1301,
+            "name": "Task 9",
+            "startDate": "09-11-2019",
+          },
+          Object {
+            "endDate": "01-12-2019",
+            "id": 1295,
+            "name": "Task 3",
+            "startDate": "13-11-2019",
+          },
+          Object {
+            "endDate": "30-11-2019",
+            "id": 1304,
+            "name": "Task 12",
+            "startDate": "29-11-2019",
+          },
+        ]
+      }
+      weekHeights={
+        Object {
+          "1": 160,
+          "2": 280,
+          "3": null,
+          "4": null,
+          "5": 130,
+          "6": null,
+        }
+      }
+      year={2019}
+    >
+      <div
+        className="calendar"
+      >
+        <div
+          className="calendar__tasks"
+        >
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-right-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 606,
+                "x": 0,
+                "y": 90,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="1-1293"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={1}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 606,
+                  "x": 0,
+                  "y": 90,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-right-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 606,
+                      "x": 0,
+                      "y": 90,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,180px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={1}
+                >
+                  <div
+                    className="calendar__task-wrapper no-right-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,180px)",
+                        "userSelect": "auto",
+                        "width": "606px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={1}
+                  >
+                    <div
+                      className="calendar__task no-right-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 1 29-10-2019 - 06-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-left-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 303,
+                "x": 0,
+                "y": 120,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1293"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 303,
+                  "x": 0,
+                  "y": 120,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-left-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 303,
+                      "x": 0,
+                      "y": 120,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,240px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper no-left-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,240px)",
+                        "userSelect": "auto",
+                        "width": "303px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task no-left-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 1 29-10-2019 - 06-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 404,
+                "x": 0,
+                "y": 120,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="1-1294"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={1}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 404,
+                  "x": 0,
+                  "y": 120,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 404,
+                      "x": 0,
+                      "y": 120,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,240px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={1}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,240px)",
+                        "userSelect": "auto",
+                        "width": "404px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={1}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 2 31-10-2019 - 03-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-right-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 505,
+                "x": 0,
+                "y": 300,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="3-1295"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={3}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 505,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-right-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 505,
+                      "x": 0,
+                      "y": 300,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,600px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={3}
+                >
+                  <div
+                    className="calendar__task-wrapper no-right-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,600px)",
+                        "userSelect": "auto",
+                        "width": "505px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={3}
+                  >
+                    <div
+                      className="calendar__task no-right-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 3 13-11-2019 - 01-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 300,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="4-1295"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={4}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 300,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,600px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={4}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,600px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={4}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 3 13-11-2019 - 01-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-left-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 300,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="5-1295"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={5}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-left-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 300,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,600px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={5}
+                >
+                  <div
+                    className="calendar__task-wrapper no-left-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,600px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={5}
+                  >
+                    <div
+                      className="calendar__task no-left-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 3 13-11-2019 - 01-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 101,
+                "x": 0,
+                "y": 150,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1296"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 101,
+                  "x": 0,
+                  "y": 150,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 101,
+                      "x": 0,
+                      "y": 150,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,300px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,300px)",
+                        "userSelect": "auto",
+                        "width": "101px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 4 05-11-2019 - 05-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 303,
+                "x": 0,
+                "y": 180,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1297"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 303,
+                  "x": 0,
+                  "y": 180,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 303,
+                      "x": 0,
+                      "y": 180,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,360px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,360px)",
+                        "userSelect": "auto",
+                        "width": "303px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 5 05-11-2019 - 07-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 101,
+                "x": 0,
+                "y": 240,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1298"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 101,
+                  "x": 0,
+                  "y": 240,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 101,
+                      "x": 0,
+                      "y": 240,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,480px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,480px)",
+                        "userSelect": "auto",
+                        "width": "101px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 6 06-11-2019 - 06-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 505,
+                "x": 0,
+                "y": 210,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1299"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 505,
+                  "x": 0,
+                  "y": 210,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 505,
+                      "x": 0,
+                      "y": 210,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,420px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,420px)",
+                        "userSelect": "auto",
+                        "width": "505px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 7 05-11-2019 - 09-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 202,
+                "x": 0,
+                "y": 270,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1300"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 202,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 202,
+                      "x": 0,
+                      "y": 270,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,540px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,540px)",
+                        "userSelect": "auto",
+                        "width": "202px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 8 08-11-2019 - 09-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 101,
+                "x": 0,
+                "y": 300,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1301"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 101,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 101,
+                      "x": 0,
+                      "y": 300,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,600px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,600px)",
+                        "userSelect": "auto",
+                        "width": "101px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 9 09-11-2019 - 09-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 30,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="1-1302"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={1}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 30,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 30,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,60px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={1}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,60px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={1}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 10 27-10-2019 - 09-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 90,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="2-1302"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={2}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 90,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 90,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,180px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={2}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,180px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={2}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 10 27-10-2019 - 09-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 270,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="3-1302"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={3}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 270,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,540px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={3}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,540px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={3}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 10 27-10-2019 - 09-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 270,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="4-1302"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={4}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 270,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,540px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={4}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,540px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={4}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 10 27-10-2019 - 09-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 270,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="5-1302"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={5}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 270,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 270,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,540px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={5}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,540px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={5}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 10 27-10-2019 - 09-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper no-border-radius"
+            default={
+              Object {
+                "height": 30,
+                "width": 707,
+                "x": 0,
+                "y": 300,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="6-1302"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={6}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 707,
+                  "x": 0,
+                  "y": 300,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper no-border-radius react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 707,
+                      "x": 0,
+                      "y": 300,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,600px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={6}
+                >
+                  <div
+                    className="calendar__task-wrapper no-border-radius react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,600px)",
+                        "userSelect": "auto",
+                        "width": "707px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={6}
+                  >
+                    <div
+                      className="calendar__task no-border-radius hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 10 27-10-2019 - 09-12-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 202,
+                "x": 0,
+                "y": 60,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="1-1303"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={1}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 202,
+                  "x": 0,
+                  "y": 60,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 202,
+                      "x": 0,
+                      "y": 60,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,120px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={1}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,120px)",
+                        "userSelect": "auto",
+                        "width": "202px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={1}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 11 27-10-2019 - 29-10-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+          <Rnd
+            bounds="parent"
+            className="calendar__task-wrapper "
+            default={
+              Object {
+                "height": 30,
+                "width": 202,
+                "x": 0,
+                "y": 330,
+              }
+            }
+            disableDragging={true}
+            enableResizing={Object {}}
+            key="5-1304"
+            maxHeight={9007199254740991}
+            maxWidth={9007199254740991}
+            minWidth={101}
+            onDrag={[Function]}
+            onDragStart={[Function]}
+            onDragStop={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onResize={[Function]}
+            onResizeStart={[Function]}
+            onResizeStop={[Function]}
+            resizeGrid={
+              Array [
+                101,
+                2,
+              ]
+            }
+            scale={1}
+            weeknumber={5}
+          >
+            <Draggable
+              allowAnyClick={false}
+              axis="both"
+              bounds={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              cancel={null}
+              defaultClassName="react-draggable"
+              defaultClassNameDragged="react-draggable-dragged"
+              defaultClassNameDragging="react-draggable-dragging"
+              defaultPosition={
+                Object {
+                  "height": 30,
+                  "width": 202,
+                  "x": 0,
+                  "y": 330,
+                }
+              }
+              disabled={true}
+              enableUserSelectHack={true}
+              grid={null}
+              handle={null}
+              offsetParent={null}
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              position={null}
+              scale={1}
+              transform={null}
+            >
+              <DraggableCore
+                allowAnyClick={false}
+                cancel={null}
+                disabled={true}
+                enableUserSelectHack={true}
+                grid={null}
+                handle={null}
+                offsetParent={null}
+                onDrag={[Function]}
+                onMouseDown={[Function]}
+                onStart={[Function]}
+                onStop={[Function]}
+                transform={null}
+              >
+                <Resizable
+                  className="calendar__task-wrapper  react-draggable"
+                  defaultSize={
+                    Object {
+                      "height": 30,
+                      "width": 202,
+                      "x": 0,
+                      "y": 330,
+                    }
+                  }
+                  enable={Object {}}
+                  grid={
+                    Array [
+                      101,
+                      2,
+                    ]
+                  }
+                  lockAspectRatio={false}
+                  lockAspectRatioExtraHeight={0}
+                  lockAspectRatioExtraWidth={0}
+                  maxHeight={9007199254740991}
+                  maxWidth={9007199254740991}
+                  minWidth={101}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  onMouseUp={[Function]}
+                  onResize={[Function]}
+                  onResizeStart={[Function]}
+                  onResizeStop={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  resizeRatio={1}
+                  scale={1}
+                  snapGap={0}
+                  style={
+                    Object {
+                      "cursor": "auto",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "touchAction": "none",
+                      "transform": "translate(0px,660px)",
+                      "width": "auto",
+                    }
+                  }
+                  transform={null}
+                  weeknumber={5}
+                >
+                  <div
+                    className="calendar__task-wrapper  react-draggable"
+                    onMouseDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "cursor": "auto",
+                        "display": "inline-block",
+                        "height": "30px",
+                        "left": 0,
+                        "maxHeight": 9007199254740991,
+                        "maxWidth": 9007199254740991,
+                        "minHeight": undefined,
+                        "minWidth": 101,
+                        "position": "absolute",
+                        "top": 0,
+                        "touchAction": "none",
+                        "transform": "translate(0px,660px)",
+                        "userSelect": "auto",
+                        "width": "202px",
+                      }
+                    }
+                    transform={null}
+                    weeknumber={5}
+                  >
+                    <div
+                      className="calendar__task  hovered-false"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="calendar__task-name"
+                      >
+                        Task 12 29-11-2019 - 30-11-2019
+                      </span>
+                    </div>
+                    <span />
+                  </div>
+                </Resizable>
+              </DraggableCore>
+            </Draggable>
+          </Rnd>
+        </div>
+        <h3
+          id="calendar__month-and-year"
+        >
+          Year: 
+          2019
+           Month: 
+          11
+        </h3>
+        <div
+          className="calendar__operations"
+        >
+          <div
+            className="calendar__month-changers"
+          >
+            <button
+              id="calendar__month-back"
+              onClick={[Function]}
+            >
+              Back
+            </button>
+            <button
+              id="calendar__month-forth"
+              onClick={[Function]}
+            >
+              Forth
+            </button>
+          </div>
+          <Connect(TaskModal)>
+            <TaskModal
+              datePickerData={
+                Object {
+                  "endDate": null,
+                  "startDate": null,
+                }
+              }
+              formData={
+                Object {
+                  "end_date": null,
+                  "name": "",
+                  "start_date": null,
+                  "task_id": null,
+                }
+              }
+              handleCloseModal={[Function]}
+              handleDateChange={[Function]}
+              handleFieldChange={[Function]}
+              handleOpenModal={[Function]}
+              showModal={false}
+            >
+              <div
+                className="calendar__task-modal"
+              >
+                <button
+                  className="calendar__add-task-btn"
+                  onClick={[Function]}
+                >
+                  Add Task
+                </button>
+                <Modal
+                  ariaHideApp={true}
+                  bodyOpenClassName="ReactModal__Body--open"
+                  closeTimeoutMS={0}
+                  contentLabel="Minimal Modal Example"
+                  isOpen={false}
+                  parentSelector={[Function]}
+                  portalClassName="ReactModalPortal"
+                  role="dialog"
+                  shouldCloseOnEsc={true}
+                  shouldCloseOnOverlayClick={true}
+                  shouldFocusAfterRender={true}
+                  shouldReturnFocusAfterClose={true}
+                >
+                  <Portal
+                    containerInfo={
+                      <div
+                        class="ReactModalPortal"
+                      />
+                    }
+                  >
+                    <ModalPortal
+                      ariaHideApp={true}
+                      bodyOpenClassName="ReactModal__Body--open"
+                      closeTimeoutMS={0}
+                      contentLabel="Minimal Modal Example"
+                      defaultStyles={
+                        Object {
+                          "content": Object {
+                            "WebkitOverflowScrolling": "touch",
+                            "background": "#fff",
+                            "border": "1px solid #ccc",
+                            "borderRadius": "4px",
+                            "bottom": "40px",
+                            "left": "40px",
+                            "outline": "none",
+                            "overflow": "auto",
+                            "padding": "20px",
+                            "position": "absolute",
+                            "right": "40px",
+                            "top": "40px",
+                          },
+                          "overlay": Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0.75)",
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "fixed",
+                            "right": 0,
+                            "top": 0,
+                          },
+                        }
+                      }
+                      isOpen={false}
+                      parentSelector={[Function]}
+                      portalClassName="ReactModalPortal"
+                      role="dialog"
+                      shouldCloseOnEsc={true}
+                      shouldCloseOnOverlayClick={true}
+                      shouldFocusAfterRender={true}
+                      shouldReturnFocusAfterClose={true}
+                      style={
+                        Object {
+                          "content": Object {},
+                          "overlay": Object {},
+                        }
+                      }
+                    />
+                  </Portal>
+                </Modal>
+              </div>
+            </TaskModal>
+          </Connect(TaskModal)>
+        </div>
+        <div
+          className="calendar__week calendar__weekday-names"
+        >
+          <div
+            className="calendar__date"
+          >
+            Monday
+          </div>
+          <div
+            className="calendar__date"
+          >
+            Tuesday
+          </div>
+          <div
+            className="calendar__date"
+          >
+            Wednesday
+          </div>
+          <div
+            className="calendar__date"
+          >
+            Thursday
+          </div>
+          <div
+            className="calendar__date"
+          >
+            Friday
+          </div>
+          <div
+            className="calendar__date"
+          >
+            Saturday
+          </div>
+          <div
+            className="calendar__date"
+          >
+            Sunday
+          </div>
+        </div>
+        <div
+          className="calendar__dates"
+        >
+          <div
+            className="calendar__week"
+            key="0"
+            style={
+              Object {
+                "height": 160,
+              }
+            }
+          >
+            <div
+              className="calendar__date native-false"
+              data-ms={1572220800000}
+              id="calendar-date-28-10-2019"
+              key="0"
+            >
+              28
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1572307200000}
+              id="calendar-date-29-10-2019"
+              key="1"
+            >
+              29
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1572393600000}
+              id="calendar-date-30-10-2019"
+              key="2"
+            >
+              30
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1572480000000}
+              id="calendar-date-31-10-2019"
+              key="3"
+            >
+              31
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1572566400000}
+              id="calendar-date-01-11-2019"
+              key="4"
+            >
+              1
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1572652800000}
+              id="calendar-date-02-11-2019"
+              key="5"
+            >
+              2
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1572739200000}
+              id="calendar-date-03-11-2019"
+              key="6"
+            >
+              3
+            </div>
+          </div>
+          <div
+            className="calendar__week"
+            key="1"
+            style={
+              Object {
+                "height": 280,
+              }
+            }
+          >
+            <div
+              className="calendar__date native-true"
+              data-ms={1572825600000}
+              id="calendar-date-04-11-2019"
+              key="0"
+            >
+              4
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1572912000000}
+              id="calendar-date-05-11-2019"
+              key="1"
+            >
+              5
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1572998400000}
+              id="calendar-date-06-11-2019"
+              key="2"
+            >
+              6
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573084800000}
+              id="calendar-date-07-11-2019"
+              key="3"
+            >
+              7
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573171200000}
+              id="calendar-date-08-11-2019"
+              key="4"
+            >
+              8
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573257600000}
+              id="calendar-date-09-11-2019"
+              key="5"
+            >
+              9
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573344000000}
+              id="calendar-date-10-11-2019"
+              key="6"
+            >
+              10
+            </div>
+          </div>
+          <div
+            className="calendar__week"
+            key="2"
+            style={
+              Object {
+                "height": 100,
+              }
+            }
+          >
+            <div
+              className="calendar__date native-true"
+              data-ms={1573430400000}
+              id="calendar-date-11-11-2019"
+              key="0"
+            >
+              11
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573516800000}
+              id="calendar-date-12-11-2019"
+              key="1"
+            >
+              12
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573603200000}
+              id="calendar-date-13-11-2019"
+              key="2"
+            >
+              13
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573689600000}
+              id="calendar-date-14-11-2019"
+              key="3"
+            >
+              14
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573776000000}
+              id="calendar-date-15-11-2019"
+              key="4"
+            >
+              15
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573862400000}
+              id="calendar-date-16-11-2019"
+              key="5"
+            >
+              16
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1573948800000}
+              id="calendar-date-17-11-2019"
+              key="6"
+            >
+              17
+            </div>
+          </div>
+          <div
+            className="calendar__week"
+            key="3"
+            style={
+              Object {
+                "height": 100,
+              }
+            }
+          >
+            <div
+              className="calendar__date native-true"
+              data-ms={1574035200000}
+              id="calendar-date-18-11-2019"
+              key="0"
+            >
+              18
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574121600000}
+              id="calendar-date-19-11-2019"
+              key="1"
+            >
+              19
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574208000000}
+              id="calendar-date-20-11-2019"
+              key="2"
+            >
+              20
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574294400000}
+              id="calendar-date-21-11-2019"
+              key="3"
+            >
+              21
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574380800000}
+              id="calendar-date-22-11-2019"
+              key="4"
+            >
+              22
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574467200000}
+              id="calendar-date-23-11-2019"
+              key="5"
+            >
+              23
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574553600000}
+              id="calendar-date-24-11-2019"
+              key="6"
+            >
+              24
+            </div>
+          </div>
+          <div
+            className="calendar__week"
+            key="4"
+            style={
+              Object {
+                "height": 130,
+              }
+            }
+          >
+            <div
+              className="calendar__date native-true"
+              data-ms={1574640000000}
+              id="calendar-date-25-11-2019"
+              key="0"
+            >
+              25
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574726400000}
+              id="calendar-date-26-11-2019"
+              key="1"
+            >
+              26
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574812800000}
+              id="calendar-date-27-11-2019"
+              key="2"
+            >
+              27
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574899200000}
+              id="calendar-date-28-11-2019"
+              key="3"
+            >
+              28
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1574985600000}
+              id="calendar-date-29-11-2019"
+              key="4"
+            >
+              29
+            </div>
+            <div
+              className="calendar__date native-true"
+              data-ms={1575072000000}
+              id="calendar-date-30-11-2019"
+              key="5"
+            >
+              30
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575158400000}
+              id="calendar-date-01-12-2019"
+              key="6"
+            >
+              1
+            </div>
+          </div>
+          <div
+            className="calendar__week"
+            key="5"
+            style={
+              Object {
+                "height": 100,
+              }
+            }
+          >
+            <div
+              className="calendar__date native-false"
+              data-ms={1575244800000}
+              id="calendar-date-02-12-2019"
+              key="0"
+            >
+              2
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575331200000}
+              id="calendar-date-03-12-2019"
+              key="1"
+            >
+              3
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575417600000}
+              id="calendar-date-04-12-2019"
+              key="2"
+            >
+              4
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575504000000}
+              id="calendar-date-05-12-2019"
+              key="3"
+            >
+              5
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575590400000}
+              id="calendar-date-06-12-2019"
+              key="4"
+            >
+              6
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575676800000}
+              id="calendar-date-07-12-2019"
+              key="5"
+            >
+              7
+            </div>
+            <div
+              className="calendar__date native-false"
+              data-ms={1575763200000}
+              id="calendar-date-08-12-2019"
+              key="6"
+            >
+              8
+            </div>
+          </div>
+        </div>
+      </div>
+    </Calendar>
+  </Connect(Calendar)>
+</Provider>
+`;

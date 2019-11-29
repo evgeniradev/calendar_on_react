@@ -1,0 +1,505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TaskModal /> renders 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(TaskModal)>
+    <TaskModal
+      datePickerData={
+        Object {
+          "endDate": null,
+          "startDate": null,
+        }
+      }
+      formData={
+        Object {
+          "end_date": null,
+          "name": "",
+          "start_date": null,
+          "task_id": null,
+        }
+      }
+      handleCloseModal={[Function]}
+      handleDateChange={[Function]}
+      handleFieldChange={[Function]}
+      handleOpenModal={[Function]}
+      showModal={true}
+    >
+      <div
+        className="calendar__task-modal"
+      >
+        <button
+          className="calendar__add-task-btn"
+          onClick={[Function]}
+        >
+          Add Task
+        </button>
+        <Modal
+          ariaHideApp={true}
+          bodyOpenClassName="ReactModal__Body--open"
+          closeTimeoutMS={0}
+          contentLabel="Minimal Modal Example"
+          isOpen={true}
+          parentSelector={[Function]}
+          portalClassName="ReactModalPortal"
+          role="dialog"
+          shouldCloseOnEsc={true}
+          shouldCloseOnOverlayClick={true}
+          shouldFocusAfterRender={true}
+          shouldReturnFocusAfterClose={true}
+        >
+          <Portal
+            containerInfo={
+              <div
+                class="ReactModalPortal"
+              >
+                <div
+                  class="ReactModal__Overlay ReactModal__Overlay--after-open"
+                  style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(255, 255, 255, 0.75);"
+                >
+                  <div
+                    aria-label="Minimal Modal Example"
+                    class="ReactModal__Content ReactModal__Content--after-open"
+                    role="dialog"
+                    style="position: absolute; top: 40px; left: 40px; right: 40px; bottom: 40px; border: 1px solid #ccc; background: rgb(255, 255, 255); overflow: auto; border-radius: 4px; outline: none; padding: 20px;"
+                    tabindex="-1"
+                  >
+                    <form
+                      class="calendar__modal-form"
+                    >
+                      <div
+                        class="calendar__modal-form-group"
+                      >
+                        <label>
+                          Name:
+                        </label>
+                        <input
+                          id="calendar__modal-form-name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                      <div
+                        class="calendar__modal-form-group"
+                      >
+                        <label>
+                          Start Date:
+                        </label>
+                        <div
+                          class="react-datepicker-wrapper"
+                        >
+                          <div
+                            class="react-datepicker__input-container"
+                          >
+                            <input
+                              class=""
+                              type="text"
+                              value=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="calendar__modal-form-group"
+                      >
+                        <label>
+                          End Date:
+                        </label>
+                        <div
+                          class="react-datepicker-wrapper"
+                        >
+                          <div
+                            class="react-datepicker__input-container"
+                          >
+                            <input
+                              class=""
+                              type="text"
+                              value=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <input
+                        id="calendar__modal-submit"
+                        type="submit"
+                        value="Submit"
+                      />
+                      <button>
+                        Close Modal
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            }
+          >
+            <ModalPortal
+              ariaHideApp={true}
+              bodyOpenClassName="ReactModal__Body--open"
+              closeTimeoutMS={0}
+              contentLabel="Minimal Modal Example"
+              defaultStyles={
+                Object {
+                  "content": Object {
+                    "WebkitOverflowScrolling": "touch",
+                    "background": "#fff",
+                    "border": "1px solid #ccc",
+                    "borderRadius": "4px",
+                    "bottom": "40px",
+                    "left": "40px",
+                    "outline": "none",
+                    "overflow": "auto",
+                    "padding": "20px",
+                    "position": "absolute",
+                    "right": "40px",
+                    "top": "40px",
+                  },
+                  "overlay": Object {
+                    "backgroundColor": "rgba(255, 255, 255, 0.75)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "fixed",
+                    "right": 0,
+                    "top": 0,
+                  },
+                }
+              }
+              isOpen={true}
+              parentSelector={[Function]}
+              portalClassName="ReactModalPortal"
+              role="dialog"
+              shouldCloseOnEsc={true}
+              shouldCloseOnOverlayClick={true}
+              shouldFocusAfterRender={true}
+              shouldReturnFocusAfterClose={true}
+              style={
+                Object {
+                  "content": Object {},
+                  "overlay": Object {},
+                }
+              }
+            >
+              <div
+                className="ReactModal__Overlay ReactModal__Overlay--after-open"
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "rgba(255, 255, 255, 0.75)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "fixed",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <div
+                  aria-label="Minimal Modal Example"
+                  className="ReactModal__Content ReactModal__Content--after-open"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseUp={[Function]}
+                  role="dialog"
+                  style={
+                    Object {
+                      "WebkitOverflowScrolling": "touch",
+                      "background": "#fff",
+                      "border": "1px solid #ccc",
+                      "borderRadius": "4px",
+                      "bottom": "40px",
+                      "left": "40px",
+                      "outline": "none",
+                      "overflow": "auto",
+                      "padding": "20px",
+                      "position": "absolute",
+                      "right": "40px",
+                      "top": "40px",
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <form
+                    className="calendar__modal-form"
+                    onSubmit={[Function]}
+                  >
+                    <div
+                      className="calendar__modal-form-group"
+                    >
+                      <label>
+                        Name:
+                      </label>
+                      <input
+                        id="calendar__modal-form-name"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="calendar__modal-form-group"
+                    >
+                      <label>
+                        Start Date:
+                      </label>
+                      <t
+                        allowSameDay={false}
+                        dateFormat="dd/M/yyyy"
+                        dateFormatCalendar="LLLL yyyy"
+                        disabled={false}
+                        disabledKeyboardNavigation={false}
+                        dropdownMode="scroll"
+                        inlineFocusSelectedMonth={false}
+                        locale="en"
+                        monthsShown={1}
+                        nextMonthButtonLabel="Next Month"
+                        nextYearButtonLabel="Next Year"
+                        onBlur={[Function]}
+                        onCalendarClose={[Function]}
+                        onCalendarOpen={[Function]}
+                        onChange={[Function]}
+                        onClickOutside={[Function]}
+                        onFocus={[Function]}
+                        onInputClick={[Function]}
+                        onInputError={[Function]}
+                        onKeyDown={[Function]}
+                        onMonthChange={[Function]}
+                        onSelect={[Function]}
+                        onYearChange={[Function]}
+                        preventOpenOnFocus={false}
+                        previousMonthButtonLabel="Previous Month"
+                        previousYearButtonLabel="Previous Year"
+                        readOnly={false}
+                        renderDayContents={[Function]}
+                        selected={null}
+                        selectsStart={true}
+                        shouldCloseOnSelect={true}
+                        showMonthYearPicker={false}
+                        showPopperArrow={true}
+                        showPreviousMonths={false}
+                        showQuarterYearPicker={false}
+                        showTimeInput={false}
+                        showTimeSelect={false}
+                        startDate={null}
+                        strictParsing={false}
+                        timeCaption="Time"
+                        timeInputLabel="Time"
+                        timeIntervals={30}
+                        withPortal={false}
+                      >
+                        <t
+                          hidePopper={true}
+                          popperComponent={null}
+                          popperModifiers={
+                            Object {
+                              "preventOverflow": Object {
+                                "boundariesElement": "viewport",
+                                "enabled": true,
+                                "escapeWithReference": true,
+                              },
+                            }
+                          }
+                          popperPlacement="bottom-start"
+                          popperProps={Object {}}
+                          targetComponent={
+                            <div
+                              className="react-datepicker__input-container"
+                            >
+                              <input
+                                className=""
+                                disabled={false}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                readOnly={false}
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          }
+                        >
+                          <Manager
+                            className="react-datepicker-manager"
+                          >
+                            <Reference>
+                              <InnerReference
+                                setReferenceNode={[Function]}
+                              >
+                                <div
+                                  className="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </InnerReference>
+                            </Reference>
+                          </Manager>
+                        </t>
+                      </t>
+                    </div>
+                    <div
+                      className="calendar__modal-form-group"
+                    >
+                      <label>
+                        End Date:
+                      </label>
+                      <t
+                        allowSameDay={false}
+                        dateFormat="dd/M/yyyy"
+                        dateFormatCalendar="LLLL yyyy"
+                        disabled={false}
+                        disabledKeyboardNavigation={false}
+                        dropdownMode="scroll"
+                        endDate={null}
+                        inlineFocusSelectedMonth={false}
+                        locale="en"
+                        minDate={null}
+                        monthsShown={1}
+                        nextMonthButtonLabel="Next Month"
+                        nextYearButtonLabel="Next Year"
+                        onBlur={[Function]}
+                        onCalendarClose={[Function]}
+                        onCalendarOpen={[Function]}
+                        onChange={[Function]}
+                        onClickOutside={[Function]}
+                        onFocus={[Function]}
+                        onInputClick={[Function]}
+                        onInputError={[Function]}
+                        onKeyDown={[Function]}
+                        onMonthChange={[Function]}
+                        onSelect={[Function]}
+                        onYearChange={[Function]}
+                        preventOpenOnFocus={false}
+                        previousMonthButtonLabel="Previous Month"
+                        previousYearButtonLabel="Previous Year"
+                        readOnly={false}
+                        renderDayContents={[Function]}
+                        selected={null}
+                        selectsEnd={true}
+                        shouldCloseOnSelect={true}
+                        showMonthYearPicker={false}
+                        showPopperArrow={true}
+                        showPreviousMonths={false}
+                        showQuarterYearPicker={false}
+                        showTimeInput={false}
+                        showTimeSelect={false}
+                        strictParsing={false}
+                        timeCaption="Time"
+                        timeInputLabel="Time"
+                        timeIntervals={30}
+                        withPortal={false}
+                      >
+                        <t
+                          hidePopper={true}
+                          popperComponent={null}
+                          popperModifiers={
+                            Object {
+                              "preventOverflow": Object {
+                                "boundariesElement": "viewport",
+                                "enabled": true,
+                                "escapeWithReference": true,
+                              },
+                            }
+                          }
+                          popperPlacement="bottom-start"
+                          popperProps={Object {}}
+                          targetComponent={
+                            <div
+                              className="react-datepicker__input-container"
+                            >
+                              <input
+                                className=""
+                                disabled={false}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                readOnly={false}
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          }
+                        >
+                          <Manager
+                            className="react-datepicker-manager"
+                          >
+                            <Reference>
+                              <InnerReference
+                                setReferenceNode={[Function]}
+                              >
+                                <div
+                                  className="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </InnerReference>
+                            </Reference>
+                          </Manager>
+                        </t>
+                      </t>
+                    </div>
+                    <input
+                      id="calendar__modal-submit"
+                      type="submit"
+                      value="Submit"
+                    />
+                    <button
+                      onClick={[Function]}
+                    >
+                      Close Modal
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </ModalPortal>
+          </Portal>
+        </Modal>
+      </div>
+    </TaskModal>
+  </Connect(TaskModal)>
+</Provider>
+`;

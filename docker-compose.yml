@@ -1,0 +1,14 @@
+version: '3'
+services:
+  calendar_on_react_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: /bin/sh -c "rm -f /calendar_on_react/tmp/pids/server.pid && bundle exec rails s -p 3000 -b 0.0.0.0"
+    volumes:
+      - .:/calendar_on_react
+      - /calendar_on_react/node_modules
+    ports:
+      - '80:3000'
+    environment:
+      - RAILS_ENV=development
